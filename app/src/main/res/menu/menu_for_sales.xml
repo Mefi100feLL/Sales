@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_sale_update"
+        android:icon="@drawable/ic_refresh_white_24dp"
+        android:title="@string/action_sale_update"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/ic_sort_white_24dp"
+        android:title="@string/action_filter"
+        app:showAsAction="ifRoom">
+        <menu>
+            <group android:checkableBehavior="single">
+
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_size_table"
+        android:title="@string/action_size_table"
+        app:showAsAction="never">
+        <menu>
+            <group android:checkableBehavior="single">
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

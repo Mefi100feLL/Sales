@@ -1,8 +1,22 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    <style name="AppTheme" parent="MaterialDrawerTheme.Light.DarkToolbar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="material_drawer_selected_text">@color/accent</item>
+
+        <item name="button_color">@color/accent</item>
+        <item name="button_colorPressed">@color/accent_dark</item>
+        <item name="rippleEffect_enabled">true</item>
+        <item name="type">DEFAULT</item>
+
+        <item name="android:fastScrollOverlayPosition">atThumb</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/apptheme_fastscroll_thumb_holo</item>
+    </style>
+
+    <style name="SaleTheme" parent="AppTheme">
     </style>
 
 </resources>

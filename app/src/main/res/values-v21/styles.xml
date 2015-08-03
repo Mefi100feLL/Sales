@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="button_color">@color/accent</item>
+        <item name="button_colorPressed">@color/accent_dark</item>
+        <item name="android:navigationBarColor">@color/primary</item>
+        <item name="android:fastScrollOverlayPosition">atThumb</item>
+
+        <item name="material_drawer_selected_text">@color/accent</item>
+    </style>
+</resources>

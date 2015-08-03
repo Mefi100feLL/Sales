@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/black">
+
+    <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+        android:id="@+id/fragment_sale_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.github.rahatarmanahmed.cpv.CircularProgressView
+        android:id="@+id/fragment_sale_progressbar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        app:cpv_maxProgress="1000"
+        app:cpv_indeterminate="false"/>
+
+</RelativeLayout>

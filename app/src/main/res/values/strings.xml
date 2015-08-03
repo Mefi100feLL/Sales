@@ -1,6 +1,51 @@
 <resources>
-    <string name="app_name">Sales</string>
+    <string name="app_name">Скидки и акции</string>
+    <string name="drawer_item_all_categories">Все категории</string>
+    <string name="drawer_item_my_notes">Мои заметки</string>
+    <string name="drawer_item_lists">Списки покупок</string>
+    <string name="drawer_item_settings">Настройки</string>
+    <string name="activity_citys">Выбор города</string>
+    <string name="action_filter">Фильтр</string>
+    <string name="action_size_table">Размер сетки</string>
+    <string name="action_filter_favorite">Избранные</string>
+    <string name="action_filter_all">Все</string>
+    <string name="string_all">Все</string>
+    <string name="string_from">из</string>
+    <string name="action_sale_in_favorite">На заметку</string>
+    <string name="action_sale_from_favorite">Из заметок</string>
+    <string name="transition_name_sale_image">sale_image</string>
+    <string name="prefs_view">Внешний вид</string>
+    <string name="prefs_color_primary">Основной цвет</string>
+    <string name="prefs_color_accent">Цвет акцента</string>
+    <string name="prefs_sales">Акции</string>
+    <string name="prefs_region">Город</string>
+    <string name="prefs_program">Программа</string>
+    <string name="prefs_display_no_off">Не гасить экран</string>
+    <string name="prefs_about">О программе</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="string_app_name">Скидки и акции</string>
+    <string name="string_app_version">Версия:</string>
+    <string name="string_app_developer">Разработчик: Попсуенко Александр</string>
+    <string name="string_app_description">Приложение позволяет просматривать акции и скидки крупных магазинов и супермаркетов</string>
+    <string name="empty_no_citys">НЕТ ГОРОДОВ\n\nПопробуйте обновить, проведя сверху вниз</string>
+    <string name="empty_no_notes">НЕТ ЗАМЕТОК\n\nПри просмотре акций, нажмите на звездочку, чтобы добавить акцию в заметки</string>
+    <string name="empty_no_shops">НЕТ МАГАЗИНОВ\n\nПопробуйте обновить, проведя сверху вниз</string>
+    <string name="empty_no_favorite_shops">НЕТ ИЗБРАННЫХ МАГАЗИНОВ\n\nНажмите на звездочку рядом с названием магазина, чтобы добавить/удалить в избранные</string>
+    <string name="empty_no_internet">НЕТ ПОДКЛЮЧЕНИЯ К СЕТИ</string>
+    <string name="empty_no_sales">НЕТ АКЦИЙ\n\nВозможно магазин не проводит акции на данный момент или на сайте пока не появилась информация о них</string>
+    <string name="prefs_profile">Профиль</string>
+    <string name="activity_profile">Профиль</string>
+    <string name="error_not_availible_email_or_password">Неверный email или пароль</string>
+    <string name="log_login_succesfull">Вход выполнен!</string>
+    <string name="action_sale_share">Отправить</string>
+    <string name="action_sale_crop">Обрезать</string>
+
+
+    <string name="string_for_share_sale">Акция в shop (period)</string>
+    <string name="error_no_cached_image">Нет сохраненного изображения</string>
+    <string name="error_imposible_mkdir">Не получается создать файл</string>
+    <string name="string_chooser_send_in">Отправить в</string>
+    <string name="string_cropping_sale">Обрезка акции</string>
+    <string name="error_file_no_created">Файл не создан</string>
+    <string name="action_sale_update">Обновить</string>
 </resources>
